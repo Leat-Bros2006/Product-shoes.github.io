@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+}
+
+/* ---Header--- */
+.bg{
+    background-color: #86b3dc;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* ---Menu--- */
+.bg ul{
+    color:rgb(201, 200, 200);
+    display: flex;
+    width:30%;
+}
+
+.bg ul li a {
+    padding:20px 35px;
+    display: block;
+    /* background-color: violet; */
+    color:black;
+    font-weight: 500;
+    transition:all 0.4s;
+    font-size:16px;
+}
+
+.bg ul li a:hover{
+    background-color: rgb(129, 13, 129);
+    color:white;
+    /* transform:scale(1.1); */
+}
+
+
+/* ----Main---- */
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* ----Homepage-1----- */
+.Homepage-1{
+    width:80%;
+    height:600px;
+    margin:auto;
+    display: flex;
+}
+
+/* ---box-pic--- */
+.Homepage-1 .box-product{
+    width:50%;
+    height:100%;
+    padding:20px;
+}
+
+.Homepage-1 .box-product img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+/* ----box-text----- */
+.Homepage-1 .box-text{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.Homepage-1 .box-text h1{
+    font-size:80px;
+    font-weight: 600;
+    color: rgb(129, 13, 129);
+    line-height:90px;
+}
+
+.Homepage-1 .box-text p{
+    font-size:12px;
+}
+
+.Homepage-1 .box-text .btn{
+}
+
+
+.Homepage-1 .box-text .btn button{
+    width:70px;
+    height:70px;
+    background-color: yellow;
+    margin-right:10px;
+    border-radius: 50%;
+    background-color: rgb(129, 13, 129);
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+
+/* ---Homepage-2---- */
+.Hoamepage-2{
+    text-align: center;
+    margin-bottom:140px;
+}
+
+.Hoamepage-2 .btn-see_more{
+    padding:15px 35px;
+    background-color: #810d81;
+    color:white;
+    border:none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px black;
+    cursor:pointer;
+    transition:all 0.4s;
+}
+
+.Hoamepage-2 .btn-see_more:hover{
+    transform:scale(0.9)
+}
+
+/* -----Homepage-3----- */
+.tit-shoe{
+    width:100%;
+    background-color:#810d81;
+    color:white;
+    padding:20px 0px;
+    margin:auto;
+    text-align:center;
+    font-size:40px;
+    font-weight:500;
+}
+.product{
+    width:85%;
+    height:340px;
+    /* background-color:yellow; */
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .sell-product{
+    width:18%;
+    height:100%;
+    padding:20px;
+    box-shadow:0px 0px 5px black;
+}
+
+.product .sell-product .pro-pic{
+    width:100%;
+    height:50%;
+    background-color: rgb(240, 240, 240);
+    text-align: right;
+}
+
+.product .sell-product .pro-pic .price{
+    background-color: red;
+    border:none;
+    color:white;
+    padding:4px 7px;
+    position: absolute;
+}
+
+.product .sell-product .pro-pic img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+
+/* ---pro-tit--- */
+.product .sell-product .pro-tit{
+}
+
+.product .sell-product .pro-tit h3{
+    font-size:22px;
+    margin:10px 0px;
+}
+
+.product .sell-product .pro-tit p{
+    font-size:10px;
+    line-height: 15px;
+    margin-top:10px;
+}
+
+.product .sell-product .pro-tit .enter{
+    padding:10px 0px;
+    width:100%;
+    background-color:#810d81;
+    color:white;
+    border:none;
+    margin-top:27px;
+    cursor:pointer;
+    transition: all 0.2s;
+}
+
+.product .sell-product .pro-tit .enter:active{
+    transform: scale(0.9);
+}
+
+
+/*-----Footer---- */
+footer{
+    width:100%;
+    background-color: black;
+    padding:30px;
+}
+
+footer .foo-center{
+    width:70%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foo-center .foo-link{
+}
+
+footer .foo-center .foo-link ul li{
+    margin-bottom: 8px;
+
+}
+
+footer .foo-center .foo-link ul li a{
+    color:rgb(109, 108, 108);
+    font-size:16px;
+    transition: all 0.3s;
+}
+
+footer .foo-center .foo-link ul li a:hover{
+    color:rgb(237, 236, 236);
+}
